@@ -53,6 +53,15 @@ let nombreCompleto = nombre + " " + apellido;
 
 alert("Bienvenido, " + nombreCompleto + ".");
 
+/*Necesito calcular el **promedio de notas** de un estudiante. Pide las 3 notas (de 0 a 5) y muestra el promedio final.*/
+let nota1 = parseFloat(prompt("Ingresa la primera nota:"));
+let nota2 = parseFloat(prompt("Ingresa la segunda nota:"));
+let nota3 = parseFloat(prompt("Ingresa la tercera nota:"));
+
+let promedio = (nota1 + nota2 + nota3) / 3;
+
+alert("El promedio final es: " + promedio);
+
 
 
 
