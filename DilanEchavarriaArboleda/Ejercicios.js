@@ -27,6 +27,17 @@ let perimetro = 2 * (largoPotrero + anchoPotrero);
 
 alert("El perímetro del potrero es: " + perimetro + " metros.");
 
+/* Mi app del clima solo muestra la temperatura en grados Fahrenheit. Pide la **temperatura en °F**
+ y conviértela a **grados Celsius**.*/
+let fahrenheit = parseFloat(prompt("Ingresa la temperatura en grados Fahrenheit:"));
+
+let celsius = (fahrenheit - 32) * 5 / 9;
+
+alert("La temperatura en grados Celsius (°C) es: " + celsius + "°C.");
+
+
+
+
 
 
 
