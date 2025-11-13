@@ -88,6 +88,16 @@ let minutos = totalMinutos % 60;
 
 alert("El tiempo trabajado es: " + horas + " horas y " + minutos + " minutos.");
 
+/*Necesito calcular el **precio final** de un producto que tiene descuento. Pide el precio
+ original y el porcentaje de descuento (ej. 20 para 20%) y muestra el precio final a pagar.*/
+let precioOriginal = parseFloat(prompt("Ingresa el precio original del producto:"));
+let porcentajeDescuento = parseFloat(prompt("Ingresa el porcentaje de descuento:"));
+
+let descuento = (porcentajeDescuento / 100) * precioOriginal;
+let precioFinal = precioOriginal - descuento;
+
+alert("El precio final a pagar es: $" + precioFinal);
+
 
 
 
