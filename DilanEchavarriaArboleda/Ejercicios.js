@@ -40,9 +40,18 @@ alert("La temperatura en grados Celsius (°C) es: " + celsius + "°C.");
 let añoNacimiento = parseInt(prompt("Ingresa tu año de nacimiento:"));
 let añoActual = 2024;
 
-let edad = añooActual - añoNacimiento;
+let edad = añoActual - añoNacimiento;
 
 alert("Tu edad es: " + edad + " años.");
+
+/*Quiero un script que **salude formalmente** a un cliente. Pide el nombre y el apellido del usuario y
+ muestra en consola el mensaje: "Bienvenido, [Nombre Completo]".*/
+let nombre = prompt("Ingresa tu nombre:");
+let apellido = prompt("Ingresa tu apellido:");
+
+let nombreCompleto = nombre + " " + apellido;
+
+alert("Bienvenido, " + nombreCompleto + ".");
 
 
 
