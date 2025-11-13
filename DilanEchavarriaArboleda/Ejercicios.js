@@ -71,6 +71,15 @@ let salarioSemanal = horasTrabajadas * precioPorHora;
 
 alert("El salario semanal es: $" + salarioSemanal);
 
+/*Estoy planeando un viaje y el mapa está en millas. Pide una **distancia en millas** y
+ muéstrala convertida a **kilómetros**. (1 milla = 1.60934 km).*/
+let millas = parseFloat(prompt("Ingresa la distancia en millas:"));
+
+let kilometros = millas * 1.60934;
+
+alert("La distancia en kilómetros es: " + kilometros + " km.");
+
+
 
 
 
