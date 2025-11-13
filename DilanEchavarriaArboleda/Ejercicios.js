@@ -79,6 +79,15 @@ let kilometros = millas * 1.60934;
 
 alert("La distancia en kilómetros es: " + kilometros + " km.");
 
+/*Un sistema registra el tiempo de trabajo en minutos. Pide un **total de minutos** y
+ calcula cuántas **horas y minutos** representa (ej. 130 minutos = 2 horas y 10 minutos).*/
+let totalMinutos = parseInt(prompt("Ingresa el total de minutos trabajados:"));
+
+let horas = Math.floor(totalMinutos / 60);
+let minutos = totalMinutos % 60;
+
+alert("El tiempo trabajado es: " + horas + " horas y " + minutos + " minutos.");
+
 
 
 
