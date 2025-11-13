@@ -107,6 +107,18 @@ let precioTotal = precioBase + iva;
 
 alert("El IVA es: $" + iva + ". El precio total con IVA es: $" + precioTotal);
 
+/*Un cliente quiere saber cuánto **capital final** tendrá en una inversión. Pide el capital inicial,
+ la tasa de interés (anual, ej. 5 para 5%) y el número de años. Calcula el interés simple
+  (Capital * (Tasa/100) * Años) y el total.*/
+let capitalInicial = parseFloat(prompt("Ingresa el capital inicial de la inversión:"));
+let tasaInteres = parseFloat(prompt("Ingresa la tasa de interés anual (en %):"));
+let numeroAnhos = parseInt(prompt("Ingresa el número de años de la inversión:"));
+
+let interesSimple = capitalInicial * (tasaInteres / 100) * numeroAnios;
+let capitalFinal = capitalInicial + interesSimple;
+
+alert("El interés simple es: $" + interesSimple + ". El capital final es: $" + capitalFinal);
+
 
 
 
