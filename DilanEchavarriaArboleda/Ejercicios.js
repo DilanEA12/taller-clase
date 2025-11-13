@@ -35,6 +35,15 @@ let celsius = (fahrenheit - 32) * 5 / 9;
 
 alert("La temperatura en grados Celsius (°C) es: " + celsius + "°C.");
 
+/*Necesito saber la **edad de un usuario**. Pide su año de nacimiento y, asumiendo que el año actual
+ es 2024, calcula cuántos años tiene.*/
+let añoNacimiento = parseInt(prompt("Ingresa tu año de nacimiento:"));
+let añoActual = 2024;
+
+let edad = añooActual - añoNacimiento;
+
+alert("Tu edad es: " + edad + " años.");
+
 
 
 
