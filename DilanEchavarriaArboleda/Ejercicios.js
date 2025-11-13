@@ -18,6 +18,15 @@ let area = ancho * alto;
 
 alert("El área de la pared es: " + area + " metros cuadrados.");
 
+/*Debo calcular cuánto **perímetro** tiene un potrero rectangular. Pide el largo
+ y el ancho del potrero y muestra el resultado.*/
+let largoPotrero = parseFloat(prompt("Ingresa el largo del potrero (en metros):"));
+let anchoPotrero = parseFloat(prompt("Ingresa el ancho del potrero (en metros):"));
+
+let perimetro = 2 * (largoPotrero + anchoPotrero);
+
+alert("El perímetro del potrero es: " + perimetro + " metros.");
+
 
 
 
