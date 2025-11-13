@@ -98,6 +98,15 @@ let precioFinal = precioOriginal - descuento;
 
 alert("El precio final a pagar es: $" + precioFinal);
 
+/*Se debe calcular el **IVA (19%)** de un producto. Pide el precio base (sin IVA) del producto
+ y calcula cuánto es el IVA y cuál es el precio total.*/
+let precioBase = parseFloat(prompt("Ingresa el precio base del producto (sin IVA):"));
+
+let iva = 0.19 * precioBase;
+let precioTotal = precioBase + iva;
+
+alert("El IVA es: $" + iva + ". El precio total con IVA es: $" + precioTotal);
+
 
 
 
