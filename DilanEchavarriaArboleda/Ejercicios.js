@@ -147,6 +147,14 @@ let pesosColombianos = dolares * tasaCambio;
 
 alert("El equivalente en pesos colombianos (COP) es: $" + pesosColombianos);
 
+/*Para un reporte, necesito saber cuántos **kilogramos** pesa un paquete. El sistema lo da en libras
+ (lb). Pide el peso en libras y muéstralo en kilogramos (1 lb = 0.453592 kg).*/
+let libras = parseFloat(prompt("Ingresa el peso del paquete en libras (lb):"));
+
+let kilogramos = libras * 0.453592;
+
+alert("El peso del paquete en kilogramos (kg) es: " + kilogramos + " kg.");
+
 
 
 
