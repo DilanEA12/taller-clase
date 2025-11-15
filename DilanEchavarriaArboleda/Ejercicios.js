@@ -119,6 +119,15 @@ let capitalFinal = capitalInicial + interesSimple;
 
 alert("El interés simple es: $" + interesSimple + ". El capital final es: $" + capitalFinal);
 
+/*14. Necesito calcular el área de un **triángulo**. Pide la base y la altura del triángulo y muestra el resultado.*/
+let baseTriangulo = parseFloat(prompt("Ingresa la base del triángulo (en metros):"));
+let alturaTriangulo = parseFloat(prompt("Ingresa la altura del triángulo (en metros):"));
+
+let areaTriangulo = (baseTriangulo * alturaTriangulo) / 2;
+
+alert("El área del triángulo es: " + areaTriangulo + " metros cuadrados.");
+
+
 
 
 
