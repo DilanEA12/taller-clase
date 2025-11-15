@@ -155,6 +155,18 @@ let kilogramos = libras * 0.453592;
 
 alert("El peso del paquete en kilogramos (kg) es: " + kilogramos + " kg.");
 
+/*Pide al usuario un **número de dos cifras** (ej. 47) y muestra la suma de sus dígitos (ej. 4 + 7 = 11).*/
+let numeroDosCifras = prompt("Ingresa un número de dos cifras (ej. 47):");
+
+let digito1 = parseInt(numeroDosCifras.charAt(0));
+let digito2 = parseInt(numeroDosCifras.charAt(1));
+
+let sumaDigitos = digito1 + digito2;
+
+alert("La suma de los dígitos es: " + sumaDigitos);
+
+
+
 
 
 
