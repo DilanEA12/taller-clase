@@ -165,6 +165,14 @@ let sumaDigitos = digito1 + digito2;
 
 alert("La suma de los dígitos es: " + sumaDigitos);
 
+/*Para un evento se necesita saber cuántos refrescos comprar. Pide el **número de asistentes** y, asumiendo
+ que cada asistente tomará 3 refrescos, muestra el total de refrescos necesarios.*/
+let numeroAsistentes = parseInt(prompt("Ingresa el número de asistentes al evento:"));
+
+let totalRefrescos = numeroAsistentes * 3;
+
+alert("El total de refrescos necesarios es: " + totalRefrescos);
+
 
 
 
