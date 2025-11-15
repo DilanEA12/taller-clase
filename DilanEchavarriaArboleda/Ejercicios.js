@@ -127,6 +127,16 @@ let areaTriangulo = (baseTriangulo * alturaTriangulo) / 2;
 
 alert("El área del triángulo es: " + areaTriangulo + " metros cuadrados.");
 
+/*15. El sistema registró mal los datos. Pide el **nombre** de un usuario y luego su **apellido**. Muestra
+ en consola los datos intercambiados (el valor del nombre en el apellido y viceversa).*/
+let nombreUsuario = prompt("Ingresa tu nombre:");
+let apellidoUsuario = prompt("Ingresa tu apellido:");
+
+let temp = nombreUsuario;
+nombreUsuario = apellidoUsuario;
+apellidoUsuario = temp;
+
+alert("Datos intercambiados:\nNombre: " + nombreUsuario + "\nApellido: " + apellidoUsuario);
 
 
 
