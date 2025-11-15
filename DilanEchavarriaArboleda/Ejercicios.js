@@ -173,6 +173,15 @@ let totalRefrescos = numeroAsistentes * 3;
 
 alert("El total de refrescos necesarios es: " + totalRefrescos);
 
+/*Necesito calcular la **velocidad promedio** de un auto. Pide la distancia recorrida (en km) y el tiempo
+ que le tomó (en horas) y muestra la velocidad (km/h).*/
+let distanciaRecorrida = parseFloat(prompt("Ingresa la distancia recorrida (en km):"));
+let tiempoHoras = parseFloat(prompt("Ingresa el tiempo tomado (en horas):"));
+
+let velocidadPromedio = distanciaRecorrida / tiempoHoras;
+
+alert("La velocidad promedio del auto es: " + velocidadPromedio + " km/h.");
+
 
 
 
