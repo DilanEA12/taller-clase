@@ -138,6 +138,15 @@ apellidoUsuario = temp;
 
 alert("Datos intercambiados:\nNombre: " + nombreUsuario + "\nApellido: " + apellidoUsuario);
 
+/*Necesito un conversor de **divisas simple**. Pide una cantidad en dólares (USD) y, asumiendo una tasa
+ de cambio fija (ej. 1 USD = 3900 COP), muestra el equivalente en pesos colombianos.*/
+let dolares = parseFloat(prompt("Ingresa la cantidad en dólares (USD):"));
+let tasaCambio = 3900;
+
+let pesosColombianos = dolares * tasaCambio;
+
+alert("El equivalente en pesos colombianos (COP) es: $" + pesosColombianos);
+
 
 
 
